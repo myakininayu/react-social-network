@@ -5,6 +5,8 @@ import Header from './Header';
 const App = () => {
   return (
     <div>
+      {/* Ctrl+K+C */}
+      {/* <Header /> */}
       <Header />
       <Technologies />
     </div>
