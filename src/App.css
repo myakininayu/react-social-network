@@ -7,30 +7,3 @@
   grid-template-columns: 2fr 10fr;
   grid-gap: 10px;
 }
-
-.header {
-  grid-area: h;
-  background-color: #04346C;
-}
-
-.header img {
-  height: 100%;
-}
-
-.nav {
-  grid-area: n;
-  background-color: #a8c8ec;
-}
-
-.content {
-  grid-area: c;
-  background-color: #FFFFFF;
-}
-
-.content img {
-  width: 100%;
-}
-
-#user_avatar {
-  width: 30%;
-}
