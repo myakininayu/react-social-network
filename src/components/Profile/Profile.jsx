@@ -1,15 +1,11 @@
 import style from './Profile.module.css'
 import MyPosts from './MyPosts/MyPosts';
+import ProfileInfo from './ProfileInfo/ProfileInfo'
 
 const Profile = () => {
     return (
         <div className={style.content}>
-            <div>
-                <img src='./images/bg.jpg' alt='User background' />
-            </div>
-            <div>
-                <img id={style.user_avatar} src='./images/user.jpg' alt='User avatar' />
-            </div>
+            <ProfileInfo />
             <MyPosts />
         </div>
     );
